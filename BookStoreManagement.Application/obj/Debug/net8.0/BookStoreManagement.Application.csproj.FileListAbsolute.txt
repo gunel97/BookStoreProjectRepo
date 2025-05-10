@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreManagement.Application.deps.json
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreManagement.Application.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreManagement.Application.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreProject.Domain.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreProject.Domain.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStor.DE58812E.Up2Date
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\refint\BookStoreManagement.Application.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\BookStoreManagement.Application.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\obj\Debug\net8.0\ref\BookStoreManagement.Application.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreProject.Infrastructure.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreManagement.Application\bin\Debug\net8.0\BookStoreProject.Infrastructure.pdb

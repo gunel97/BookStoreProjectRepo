@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\bin\Debug\net8.0\BookStoreProject.Infrastructure.deps.json
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\bin\Debug\net8.0\BookStoreProject.Infrastructure.runtimeconfig.json
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\bin\Debug\net8.0\BookStoreProject.Infrastructure.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\bin\Debug\net8.0\BookStoreProject.Infrastructure.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\bin\Debug\net8.0\BookStoreProject.Domain.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\bin\Debug\net8.0\BookStoreProject.Domain.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStor.C80B669E.Up2Date
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\refint\BookStoreProject.Infrastructure.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\BookStoreProject.Infrastructure.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Infrastructure\obj\Debug\net8.0\ref\BookStoreProject.Infrastructure.dll

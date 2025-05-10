@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\bin\Debug\net8.0\BookStoreProject.Domain.deps.json
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\bin\Debug\net8.0\BookStoreProject.Domain.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\bin\Debug\net8.0\BookStoreProject.Domain.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\refint\BookStoreProject.Domain.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.pdb
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\ref\BookStoreProject.Domain.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.Domain\obj\Debug\net8.0\BookStoreProject.Domain.csproj.AssemblyReference.cache
