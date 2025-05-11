@@ -840,41 +840,62 @@ namespace BookStoreProject.ConsoleUI
             #region GetMethods
             static void GetAllAuthors()
             {
-                var authors = authorService.GetAll();
+                try
+                {
+                    var authors = authorService.GetAll();
 
-                Console.WriteLine(new string('-', 40));
-                Console.WriteLine($"{"ID",-4} {"Author Name",-40}");
-                Console.WriteLine(new string('-', 40));
+                    Console.WriteLine(new string('-', 40));
+                    Console.WriteLine($"{"ID",-4} {"Author Name",-40}");
+                    Console.WriteLine(new string('-', 40));
 
-                foreach (var author in authors)
-                    Console.WriteLine(new string($"{author.Id,-4} {author.FullName,-30}"));
-                Console.WriteLine(new string('-', 40));
+                    foreach (var author in authors)
+                        Console.WriteLine(new string($"{author.Id,-4} {author.FullName,-30}"));
+                    Console.WriteLine(new string('-', 40));
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine("Not found");
+                }
             }
 
             static void GetAllCustomers()
             {
-                var customers = customerService.GetAll();
+                try
+                {
+                    var customers = customerService.GetAll();
 
-                Console.WriteLine(new string('-', 90));
-                Console.WriteLine($"{"ID",-4} {"Customer Name",-40} {"Phone",-15} {"Email", -15}");
-                Console.WriteLine(new string('-', 90));
+                    Console.WriteLine(new string('-', 90));
+                    Console.WriteLine($"{"ID",-4} {"Customer Name",-40} {"Phone",-15} {"Email",-15}");
+                    Console.WriteLine(new string('-', 90));
 
-                foreach (var customer in customers)
-                    Console.WriteLine($"{customer.Id,-4} {customer.FullName,-40} {customer.Phone,-15} {customer.Email,-15} ");
-                Console.WriteLine(new string('-', 90));
+                    foreach (var customer in customers)
+                        Console.WriteLine($"{customer.Id,-4} {customer.FullName,-40} {customer.Phone,-15} {customer.Email,-15} ");
+                    Console.WriteLine(new string('-', 90));
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine("Not found");
+                }
             }
 
             static void GetAllGenres()
             {
-                var genres = genreService.GetAll();
+                try
+                {
+                    var genres = genreService.GetAll();
 
-                Console.WriteLine(new string('-', 40));
-                Console.WriteLine($"{"ID",-4} {"Genre",-40}");
-                Console.WriteLine(new string('-', 40));
+                    Console.WriteLine(new string('-', 40));
+                    Console.WriteLine($"{"ID",-4} {"Genre",-40}");
+                    Console.WriteLine(new string('-', 40));
 
-                foreach (var genre in genres)
-                    Console.WriteLine($"{genre.Id,-4} {genre.Name,-30}");
-                Console.WriteLine(new string('-', 40));
+                    foreach (var genre in genres)
+                        Console.WriteLine($"{genre.Id,-4} {genre.Name,-30}");
+                    Console.WriteLine(new string('-', 40));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Not found") ;
+                }
             }
 
             static void GetAllBooks()
