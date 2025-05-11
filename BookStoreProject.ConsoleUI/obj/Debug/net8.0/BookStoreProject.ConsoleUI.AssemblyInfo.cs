@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookStoreProject.ConsoleUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85ec9e00d48da36990f5aae00867a7d8066d16eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63903620e4c009a543a6f02eb5f38af5e9847e29")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookStoreProject.ConsoleUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookStoreProject.ConsoleUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

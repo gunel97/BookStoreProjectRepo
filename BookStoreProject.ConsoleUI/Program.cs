@@ -879,18 +879,25 @@ namespace BookStoreProject.ConsoleUI
 
             static void GetAllBooks()
             {
-                var books = bookService.GetAll(include: x => x.Include(a => a.Author).Include(g => g.Genre));
-
-                Console.WriteLine(new string('-', 90));
-                Console.WriteLine($"{"ID",-4} {"Book Title",-20} {"Description",-20} {"Year",-10} " +
-                    $"{"Author",-20} {"Genre",-10} {"Price",-10} {"Quantity",-10} ");
-                Console.WriteLine(new string('-', 90));
-
-                foreach (var book in books)
+                try
                 {
-                    PrintBook(book);
+                    var books = bookService.GetAll(include: x => x.Include(a => a.Author).Include(g => g.Genre));
+
+                    Console.WriteLine(new string('-', 90));
+                    Console.WriteLine($"{"ID",-4} {"Book Title",-20} {"Description",-20} {"Year",-10} " +
+                        $"{"Author",-20} {"Genre",-10} {"Price",-10} {"Quantity",-10} ");
+                    Console.WriteLine(new string('-', 90));
+
+                    foreach (var book in books)
+                    {
+                        PrintBook(book);
+                    }
+                    Console.WriteLine(new string('-', 40));
                 }
-                Console.WriteLine(new string('-', 40));
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Not found");
+                }
             }
 
             static void GetAllOrders()
