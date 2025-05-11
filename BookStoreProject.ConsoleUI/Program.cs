@@ -34,7 +34,8 @@ namespace BookStoreProject.ConsoleUI
                 "1.2 Kitab Siyahisi\n" +
                 "1.3 Kitab Axtar\n" +
                 "1.4 Kitabi Redakte Et\n" +
-                "1.5 Kitabi Sil\n");
+                "1.5 Kitabi Sil\n" +
+                "1.6 Kitabin Sayini Artir");
             Console.WriteLine();
 
             Console.WriteLine("2. Muellifler");
@@ -43,7 +44,7 @@ namespace BookStoreProject.ConsoleUI
                 "2.2 Muellif Siyahisi\n" +
                 "2.3 Muellifin Kitablari\n" +
                 "2.4 Muellifi Sil\n" +
-                "2.5 Muellifi Redakte Et\n");
+                "2.5 Muellifi Redakte Et");
             Console.WriteLine();
 
             Console.WriteLine("3. Janrlar");
@@ -51,7 +52,7 @@ namespace BookStoreProject.ConsoleUI
                 "3.1 Yeni Janr Elave Et\n" +
                 "3.2 Janr Siyahisi\n" +
                 "3.3 Janri Sil\n" +
-                "3.4 Janri Redakte Et\n");
+                "3.4 Janri Redakte Et");
             Console.WriteLine();
 
             Console.WriteLine("4. Musteriler ve Sifarisler");
@@ -61,7 +62,7 @@ namespace BookStoreProject.ConsoleUI
                 "4.4 Sifaris Sil\n" +
                 "4.5 Musterilere Baxis\n" +
                 "4.6 Musteri Redakte Et\n" +
-                "4.7 Musteri Sil\n");
+                "4.7 Musteri Sil");
             Console.WriteLine();
 
             Console.WriteLine("0. Cixis");
@@ -76,6 +77,7 @@ namespace BookStoreProject.ConsoleUI
                 {"1.3", SearchBook },
                 {"1.4", UpdateBook },
                 {"1.5", DeleteBook },
+                {"1.6", IncreseBookQuantity },
 
                 {"2.1", AddAuthor },
                 {"2.2", GetAllAuthors},
@@ -234,6 +236,7 @@ namespace BookStoreProject.ConsoleUI
 
             static void AddCustomer()
             {
+                Console.WriteLine("***** - ADDING NEW CUSTOMER - *****\n");
                 if (!EnterInputString("First Name: ", out string customerFirstName))
                     return;
                 if (!EnterInputString("Last Name: ", out string customerLastName))
@@ -392,11 +395,12 @@ namespace BookStoreProject.ConsoleUI
                 else
                     newPublishYear = book.PublishedYear;
 
-                Console.Write("Do you want to change author?(yes/no)");
+                Console.Write("Do you want to change author?(yes/no): ");
                 string option = Console.ReadLine();
                 int newAuthorId = book.Author.Id;
                 if (option.ToLower() == "yes")
                 {
+                    GetAllAuthors();
                     if (!EnterInputInt("new author id", out newAuthorId))
                         return;
                     try
@@ -415,16 +419,18 @@ namespace BookStoreProject.ConsoleUI
                     return;
                 }
 
-                Console.WriteLine("Do you want to change genre?(yes/no)");
+                Console.Write("Do you want to change genre?(yes/no): ");
                 option = Console.ReadLine();
                 int newGenreId = book.Genre.Id;
                 if (option.ToLower() == "yes")
                 {
+                    GetAllGenres();
                     if (!EnterInputInt("new genre id", out newGenreId))
                         return;
+
                     try
                     {
-                        authorService.GetById(newGenreId);
+                        genreService.GetById(newGenreId);
                     }
                     catch (Exception ex)
                     {
@@ -432,7 +438,7 @@ namespace BookStoreProject.ConsoleUI
                         return;
                     }
                 }
-                if (option.ToLower() != "no")
+                if (option.ToLower() != "no" && option.ToLower()!="yes")
                 {
                     Console.WriteLine("Incorrect input");
                     return;
@@ -987,6 +993,33 @@ namespace BookStoreProject.ConsoleUI
                 }
             }
             #endregion
+
+            static void IncreseBookQuantity(){
+                if (!EnterInputInt("book id", out int bookId)) ;
+                if (!EnterInputInt("count of new books", out int quantity)) ;
+
+                var book = bookService.Get(b => b.Id == bookId, include: b => b.Include(a => a.Author).Include(g => g.Genre));
+
+                var bookUpdateDto = new BookUpdateDto
+                {
+                    Id = bookId,
+                    Title = book.Title,
+                    Price = book.Price,
+                    QuantityInStock = book.QuantityInStock + quantity,
+                    PublishedYear = book.PublishedYear,
+                    AuthorId = book.Author.Id,
+                    GenreId = book.Genre.Id,
+                };
+                try
+                {
+                    var updatedBook = bookService.Update(bookUpdateDto);
+                    Console.WriteLine($"Quantity of Book updated! New quantity: {updatedBook.QuantityInStock}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
 
             static void PrintBook(BookDto book)
             {

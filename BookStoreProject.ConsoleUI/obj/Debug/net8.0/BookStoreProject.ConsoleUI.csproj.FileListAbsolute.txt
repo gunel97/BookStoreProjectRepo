@@ -70,3 +70,4 @@ C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.ConsoleUI\bin\Deb
 C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.ConsoleUI\obj\Debug\net8.0\BookStoreProject.ConsoleUI.csproj.AssemblyReference.cache
 C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.ConsoleUI\obj\Debug\net8.0\BookStor.62A71B0F.Up2Date
 C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.ConsoleUI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Lenovo\source\repos\BookStoreProject\BookStoreProject.ConsoleUI\obj\Debug\net8.0\BookStoreProject.ConsoleUI.sourcelink.json

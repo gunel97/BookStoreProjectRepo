@@ -14,5 +14,6 @@ namespace BookStoreManagement.Application.DTOs.OrderDetailDtos
         public string BookTitle {  get; set; }
         public int Quantity { get; set; }
         public double TotalPrice {  get; set; }
+        public BookDto Book { get; set; }
     }
 }
