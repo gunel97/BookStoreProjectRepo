@@ -714,7 +714,7 @@ namespace BookStoreProject.ConsoleUI
                 else if (genre.Books.Count == 0)
                     Console.WriteLine("*** - (Genre had no books) - ***");
 
-                authorService.Delete(genreId);
+                genreService.Delete(genreId);
                 Console.WriteLine($"Genre with id {genreId} deleted!");
 
                 GetAllGenres();
